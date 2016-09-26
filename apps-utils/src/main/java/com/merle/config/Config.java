@@ -53,14 +53,7 @@ public class Config {
 
     static {
         try {
-//            AbstractConfiguration.setDefaultListDelimiter('-');
             config = new XMLConfiguration(CONFIG_FILENAME);
-
-
-//            config.setDelimiterParsingDisabled(false);
-//            config.setListDelimiter('x');
-//            XMLConfiguration.setDelimiter(' ');//设置空格为分割符.
-//            config.setExpressionEngine(new XPathExpressionEngine());
         } catch (ConfigurationException e) {
             //e.printStackTrace();
         }
