@@ -14,8 +14,8 @@ public class Config {
     private static XMLConfiguration config = null;
 
     public static String[] getLocalProperties(String parent) {
-        return config.getStringArray(parent);
-    }
+        return config.getStringArray(parent); 
+    }   
 
     public static int getIntLocalProperty(String name) {
         return config.getInt(name);
