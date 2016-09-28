@@ -5,7 +5,7 @@ import org.apache.commons.configuration.XMLConfiguration;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-public class Config {   
+public class Config {     
 
     private static final Logger logger = LoggerFactory.getLogger(Config.class);
 
