@@ -46,9 +46,8 @@ public class Config {
     }
 
     public static void main(String[] args) {
-
-
-
+        String rabbitHost = Config.getLocalProperty("rabbitmq.host");
+        System.out.println(rabbitHost);
     }
 
     static {
